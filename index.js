@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 // Middleware setup
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://adblogapp.netlify.app"], // Your front-end URL
+    origin: ["https://clintside-blogapp1.onrender.com", "https://adblogapp.netlify.app"], // Your front-end URL
     credentials: true,
   })
 );
